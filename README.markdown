@@ -71,4 +71,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any questions or support, please contact Sam at [\samfrancissam06@gmail.com\].
+For any questions or support, please contact Me at [samfrancissam06@gmail.com].
