@@ -35,7 +35,6 @@ CyberReconX is an advanced reconnaissance tool designed to assist security profe
    ```
    pip install -r requirements
    ```
-![Screenshot 2025-04-19 192336](https://github.com/user-attachments/assets/6b8aa76e-f0ca-4a16-8823-6ad3b269e247)
 
 ## Usage
 
@@ -44,6 +43,7 @@ CyberReconX is an advanced reconnaissance tool designed to assist security profe
    ```
    python CyberReconX.py
    ```
+![Screenshot 2025-04-19 192336](https://github.com/user-attachments/assets/e41f91fb-1b8b-4a3d-badd-d2bebb80113b)
 
 2. Choose an option from the menu by entering the corresponding number:
 
