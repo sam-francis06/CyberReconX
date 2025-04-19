@@ -1,77 +1,116 @@
-# CyberReconX - Advanced Cyber Recon Tool
+# ⚔️ CyberReconX - Advanced Cyber Reconnaissance Tool
 
-## Overview
+**CyberReconX** is a powerful, Python-based command-line tool designed for deep reconnaissance of domains and IP addresses. It gathers critical intelligence using WHOIS, DNS, GeoIP, and more, wrapped in a sleek, colorful terminal UI powered by PyFiglet and Colorama.
 
-CyberReconX is an advanced reconnaissance tool designed to assist security professionals and researchers in gathering information about targets. Developed by Sam, this tool provides a variety of options for domain and network reconnaissance.
+---
 
-## Features
+## 🚀 Features
 
-- Domain Recon
-- IP Recon
-- Subdomain Enumeration
-- SSL/TLS Info
-- Quick Port Scan
-- HTTP Headers Analysis
-- Full Reconnaissance
+- **WHOIS Lookup**: Retrieve domain registration details.
+- **DNS & MX Records**: Query DNS records and mail server information.
+- **GeoIP Location**: Pinpoint IP geolocation data.
+- **Stylish UI**: Eye-catching banners and colored output.
+- **Extensible**: Easily add new reconnaissance modules.
 
-## Installation
+---
 
-1. Ensure you have Python installed on your system.
+## 🛠️ Installation
 
-2. Clone the repository:
+Get **CyberReconX** up and running in minutes with these steps:
 
-   ```
-   git clone https://github.com/sam-francis06/CyberReconX.git
-   ```
+### 📁 Step 1: Clone the Repository
 
-3. Navigate to the directory:
+```bash
+git clone https://github.com/yourusername/CyberReconX.git
+cd CyberReconX
+```
 
-   ```
-   cd CyberReconX
-   ```
+### 🧪 Step 2: Set Up a Virtual Environment
 
-4. Install the requirements:
+On **macOS/Linux**:
 
-   ```
-   pip install -r requirements
-   ```
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-## Usage
+On **Windows**:
 
-1. Run the tool:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-   ```
-   python CyberReconX.py
-   ```
-![Screenshot 2025-04-19 192336](https://github.com/user-attachments/assets/e41f91fb-1b8b-4a3d-badd-d2bebb80113b)
+### 📦 Step 3: Install Dependencies
 
-2. Choose an option from the menu by entering the corresponding number:
+```bash
+pip install -r requirements.txt
+```
 
-   - 1: Domain Recon
-   - 2: IP Recon
-   - 3: Subdomain Enumeration
-   - 4: SSL/TLS Info
-   - 5: Quick Port Scan
-   - 6: HTTP Headers Analysis
-   - 7: Full Reconnaissance
-   - 8: Exit
+Or install manually:
 
-3. Follow the prompts to input your target and proceed with the selected reconnaissance task.
+```bash
+pip install requests dnspython python-whois pyfiglet colorama
+```
 
-## Requirements
+### 🧠 Step 4: Run the Tool
 
-Refer to the `requirements` file for the list of dependencies needed to run CyberReconX.
+```bash
+python cyberreconx.py
+```
 
-## Contributing
+### ❌ Step 5: Deactivate the Environment
 
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+```bash
+deactivate
+```
 
-## License
+---
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+## Output
 
-## Contact
-
-For any questions or support, please contact Me at [samfrancissam06@gmail.com].
+![Screenshot 2025-04-20 022236](https://github.com/user-attachments/assets/27b7b81b-d0b3-4ec9-9e32-99934dd64c82)
 
 
+## 🧾 Requirements
+
+- **Python**: 3.7 or higher
+- **Internet Connection**: Required for API queries
+- **Dependencies**: Listed in `requirements.txt`
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions to make **CyberReconX** even better! Here's how you can help:
+
+1. **Fork** the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m "Add YourFeature"`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a **Pull Request**.
+
+Please read our Contributing Guidelines for more details.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the LICENSE file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Francis Samuvel (Sam)**\
+*Cybersecurity Enthusiast | Ethical Hacker*\
+📧 Email: samfrancissam06@gmail.com\
+🌐 GitHub: https://github.com/sam-francis06\
+
+---
+
+## 🌟 Show Your Support
+
+Love **CyberReconX**? Give it a ⭐ on GitHub and share it with the community! Have ideas or feedback? Open an issue or join the discussion.
+
+Happy hacking, Sam! 💻🛡️
