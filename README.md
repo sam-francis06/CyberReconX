@@ -21,7 +21,7 @@ Get **CyberReconX** up and running in minutes with these steps:
 ### 📁 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/CyberReconX.git
+git clone https://github.com/sam-francis06/CyberReconX.git
 cd CyberReconX
 ```
 
