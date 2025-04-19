@@ -21,7 +21,7 @@ CyberReconX is an advanced reconnaissance tool designed to assist security profe
 2. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/CyberReconX.git
+   git clone https://github.com/sam-francis06/CyberReconX.git
    ```
 
 3. Navigate to the directory:
@@ -71,4 +71,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any questions or support, please contact Sam at \[your.email@example.com\].
+For any questions or support, please contact Sam at \[\samfrancissam06@gmail.com\].
