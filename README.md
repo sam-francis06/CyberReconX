@@ -56,7 +56,7 @@ pip install requests dnspython python-whois pyfiglet colorama
 ### 🧠 Step 4: Run the Tool
 
 ```bash
-python cyberreconx.py
+python CyberReconX.py
 ```
 
 ### ❌ Step 5: Deactivate the Environment
