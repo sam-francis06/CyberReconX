@@ -10,7 +10,7 @@ from colorama import Fore, Back, Style, init
 from requests.exceptions import RequestException
 import concurrent.futures
 
-# Initialize colorama
+
 init(autoreset=True)
 
 def print_banner():
@@ -72,11 +72,11 @@ def ssl_certificate(domain):
                 cert = ssock.getpeercert()
                 
         print(Fore.GREEN + "Certificate Information:")
-        # Process and display subject information
+        
         subject = dict(x[0] for x in cert['subject'])
         print(f"Subject: {subject.get('commonName', 'N/A')}")
         
-        # Process and display issuer information
+        
         issuer = dict(x[0] for x in cert['issuer'])
         print(f"Issuer: {issuer.get('commonName', 'N/A')}")
         
@@ -178,7 +178,7 @@ def http_headers(url):
         for header, value in response.headers.items():
             print(f" - {header}: {value}")
         
-        # Check for security headers
+        
         security_headers = {
             'Strict-Transport-Security': 'Missing HSTS header',
             'Content-Security-Policy': 'Missing CSP header',
@@ -199,9 +199,9 @@ def http_headers(url):
 
 def print_section_divider():
     """Print a divider line to separate output sections."""
-    terminal_width = 80  # Default width
+    terminal_width = 80  
     try:
-        # Try to get the actual terminal width if possible
+        
         import os
         terminal_size = os.get_terminal_size()
         terminal_width = terminal_size.columns
@@ -269,7 +269,7 @@ def main():
             print(Fore.GREEN + f"\n[+] Starting full reconnaissance for {target}...")
             print_section_divider()
             
-            # Resolve IP if domain
+            
             try:
                 ip = socket.gethostbyname(target)
                 print(Fore.GREEN + f"\n[+] Resolved {target} to IP: {ip}")
